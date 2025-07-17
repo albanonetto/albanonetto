@@ -1294,7 +1294,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #intro {
-	background: #1A1D24 url(../images/intro-bg.jpg) no-repeat center bottom;
+	background: #1A1D24 url(../images/intro-bg.png) no-repeat center bottom;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -2098,7 +2098,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #services {
-	background: #212529 url(../images/bg.jpg) no-repeat center;
+	background: #212529 url(../images/bg.png) no-repeat center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -2704,5 +2704,10 @@ footer .copyright span:last-child::after {
 #go-top a:hover {
 	background: #000000;
 }
-
+#services .service .fa-solid {
+  font-size: 2em;       /* Dobra o tamanho do ícone em relação ao seu container */
+  color: #D4A373;      /* Cor: Um tom de dourado clássico (Goldenrod) */
+  margin-bottom: 30px;  /* Adiciona um espaço extra abaixo do ícone */
+  display: block;       /* Garante que o espaço extra funcione bem */
+}
 /*# sourceMappingURL=main.css.map */
